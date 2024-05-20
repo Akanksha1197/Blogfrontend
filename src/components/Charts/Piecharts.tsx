@@ -15,7 +15,7 @@ const PieChart: React.FC = () => {
       try {
         const accessToken = localStorage.getItem('accessToken');
 
-        const res = await fetch("http://localhost:5000/api/getAnalytics", {
+        const res = await fetch("https://blogappbackend-6xq6uek66-akankshas-projects-76b3734f.vercel.app/api/getAnalytics", {
             method:'GET',
           headers: {
             Authorization: `Bearer ${accessToken}`,
