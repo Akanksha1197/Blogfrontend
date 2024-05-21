@@ -23,7 +23,7 @@ const CreatePost = () => {
     try {
       const accessToken = localStorage.getItem('accessToken');
 
-      const response = await fetch('https://blogappbackend-6xq6uek66-akankshas-projects-76b3734f.vercel.app/api/blog',{
+      const response = await fetch('https://blogappbackend-980x75kmb-akankshas-projects-76b3734f.vercel.app/api/blog',{
         headers: {
           Authorization: `Bearer ${accessToken}`,        },
       });

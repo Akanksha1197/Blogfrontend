@@ -11,7 +11,7 @@ const Analytics: React.FC = () => {
 
   useEffect(() => {
     const fetchUser = async () => {
-      const response = await fetch('https://blogappbackend-6xq6uek66-akankshas-projects-76b3734f.vercel.app/api/getUsers');
+      const response = await fetch('https://blogappbackend-980x75kmb-akankshas-projects-76b3734f.vercel.app/api/getUsers');
       if (response.ok) {
         const data=await response.json();
         setTotalUsers(data.length);
@@ -22,7 +22,7 @@ const Analytics: React.FC = () => {
 
   useEffect(() => {
     const fetchComment = async () => {
-        const response = await fetch('https://blogappbackend-6xq6uek66-akankshas-projects-76b3734f.vercel.app/api/comment/getcomment');
+        const response = await fetch('https://blogappbackend-980x75kmb-akankshas-projects-76b3734f.vercel.app/api/comment/getcomment');
         if (response.ok) {
             const data=await response.json();
     
